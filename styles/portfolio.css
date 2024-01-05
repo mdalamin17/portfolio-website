@@ -14,6 +14,18 @@ body {
   font-weight: 700;
   padding: 15px 35px;
 }
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
 /*nav related style*/
 nav {
   display: flex;
@@ -49,25 +61,34 @@ nav a {
   padding: 30px 30px 0px 150px;
   display: flex;
   align-self: center;
+  justify-content: space-between;
 }
-.banner-content{
-    max-width: 500px;
+.banner-content {
+  max-width: 500px;
 }
 .banner .profile-pic {
-  width: 500px; 
+  width: 500px;
 }
-.banner-greeting{
-    font-size: 45px;
-    color: #474747;
-    margin-bottom: 0px;
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0px;
 }
-.banner-title{
-    font-size: 85px;
-    font-weight: 700px;
-    margin-top: 5px;
-    margin-bottom: 20px;
+.banner-title {
+  font-size: 85px;
+  font-weight: 700px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
-.babanner-description{
-    margin-top: 0px;
-    margin-bottom: 20px;
+.babanner-description {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+/*main section styles*/
+/*about section styles*/
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+  margin: 130px 0px;
 }
